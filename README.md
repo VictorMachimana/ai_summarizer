@@ -1,12 +1,16 @@
 # ai_summarizer
 Dependencies:
 * npm i @reduxjs/toolkit
+* npm i react-redux 
 * npm install -D tailwindcss postcss autoprefixer 
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+* type "npm run dev" - to start the project
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# project description
+* This is a website article summarize built using VITE and React JS
+* This is a website built using rapidapi ai to summerize articles on any provided website url link.
+* Features:
+- Summary Articles using ai
+- Storing search history and article history
+- quick copy button for both links and article text
